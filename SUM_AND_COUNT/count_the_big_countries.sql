@@ -1,0 +1,3 @@
+SELECT COUNT(area)
+FROM world
+WHERE area >= 1000000;
