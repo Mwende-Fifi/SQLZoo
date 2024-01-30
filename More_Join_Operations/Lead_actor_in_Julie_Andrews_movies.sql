@@ -1,0 +1,26 @@
+SELECT title, name FROM movie JOIN casting ON (movieid = movie.id AND ord=1)
+JOIN actor ON actorid = actor.id
+WHERE movie.id IN (179,
+10016,
+12354,
+12497,
+12766,
+13846,
+15145,
+15476,
+16870,
+17117,
+17445,
+17765,
+18270,
+20136,
+20136,
+20180,
+20181,
+20509,
+20627,
+21023,
+21154,
+21171,
+21483);
+
